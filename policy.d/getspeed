@@ -1,0 +1,5 @@
+getspeed {
+	update reply {
+		Session-Timeout := "%{sql:select count(*) from userbillinfo}"
+	}
+}
